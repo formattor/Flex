@@ -157,12 +157,10 @@ nav{
   display: flex;
   flex-direction: column;
 }
-
 /* -n+2前两个 */
 .nav-item:nth-child(-n+2){
   border-right: 1px solid #fff;
 }
-
 .nav-item a{
   color: #fff;
   line-height: 44px;
@@ -189,7 +187,6 @@ nav{
   padding: 5px 0;
   box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
 }
-
 .sunnav li{
   flex: 20%;
 }
@@ -213,7 +210,6 @@ nav{
   background-color: #fff;
   margin: 4px;
 }
-
 .sales-hd{
   position: relative;
   height: 44px;
@@ -221,7 +217,6 @@ nav{
   /* display: flex;
   justify-content: space-between; */
 }
-
 .sales-hd h2{
   position: relative;
   /* text-indent: -999px; */
@@ -237,6 +232,7 @@ nav{
   background: url(../images/hot.png) no-repeat 0 -20px;
   background-size: 79px;
 }
+
 .more{
   position: absolute;
   right: 5px;
@@ -257,6 +253,7 @@ nav{
   border-right: 2px solid #fff;
   transform: rotate(45deg);
 }
+
 .row{
   display: flex;
 }
@@ -269,4 +266,14 @@ nav{
 }
 .row img{
   width: 100%;
+}
+footer{
+  background-color: #fff;
+  text-align: center;
+  height: 36px;
+  line-height: 36px;
+  margin: 0 4px;
+}
+footer a{
+  color: #999;
 }
